@@ -1,4 +1,4 @@
-# FFMPEG-Batch-DragNDrop-Remux-to-MP4
+# FFMPEG Batch DragNDrop Remux to MP4
 Simple Windows Batch file to drag multiple videos onto and have them all be remuxed to MP4.
 No loss of quality, as only  the container is being changed, not the media streams. This of course won't work properly for codecs that MP4 doesn't support, but the most popular codecs used for online media these days are MP4 compatible.
 
