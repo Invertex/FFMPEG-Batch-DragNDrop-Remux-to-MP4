@@ -61,13 +61,6 @@ ECHO.
 pause
 exit
 
-:GET_PATH <dirVar> <fileNameVar> <pathVar>
-(
-    set "%~1=%~dp3"
-	set "%~2=%~fn3"
-    exit /b 0
-)
-
 :ISFOLDER <pathVar>
 (
 	setlocal enabledelayedexpansion
